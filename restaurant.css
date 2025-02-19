@@ -1,0 +1,347 @@
+ @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1d1d23;
+    transition: 1sec;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+.container {
+    max-width: 100vw;
+    margin: 0;
+    border: none;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #e58f00;
+    width: 25vw;
+}
+
+.bigger-text {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    width: auto;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    width: auto;
+}
+
+h3 {
+    
+    font-size: 3rem;
+    margin: 0;
+    
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #e58f00;
+}
+
+.first-container {
+    
+    background-image: url('images/bgv1.png');
+    background-repeat: no-repeat;
+    width: auto;
+    background-position: center;
+    
+    
+}
+
+
+
+
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    
+    padding-top: 45px;  
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color:white;
+}
+
+.menu-item:hover {
+    color: #e58f00;
+}
+
+.sides-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.sides-items {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0;    
+    font-weight: 900; 
+    text-align: center;      
+    
+    
+}
+
+
+
+.header-logo {
+    max-height: fit-content;
+
+}
+
+.header-copy {
+    max-width: 530px;
+}
+
+.header-main, .about-us-section {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    padding: 80px 0 80px 0;
+    
+    
+}
+
+.header-image, .about-us-image {
+    align-content: end;
+}
+
+button {
+    background-color: #e58f00;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 18px;
+    border: none;
+}
+
+.shape-bg {
+    background-image: url('images/Shapey.png');
+    background-repeat: no-repeat;
+    
+}
+.about-us-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-us-copy {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.quality-food-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    
+}
+
+.egg-berry{
+    padding-left: 7vw;
+}
+
+.our-food-copy {
+    padding-top: 25vw;
+   
+    
+    
+    
+}
+
+.our-food-h3 {
+    padding-left: 10vw;
+    
+}
+
+
+
+.our-food-text {
+    float: right;
+    padding-left: 10vw;
+    padding-bottom: 5vw;
+    font-size: 2rem;
+    max-width: auto;
+    
+}
+
+
+.half-image, .full-image {
+    float: right;
+    
+}
+
+.gallery-h3 {
+    text-align: center;
+    padding: 10vw 0 5vw;
+}
+
+.food-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10vh;
+    
+    gap: 60px 15px;
+    
+    justify-items: center;
+    
+}
+
+.gallery-image {
+    padding-top: 15px;
+}
+
+.enjoy-food-bg{
+    background-image: url('images/bgv2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.enjoy-our-food {
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.enjoy-food-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5rem;
+    max-width: 50vw;
+    max-height: auto;
+    border: 10px solid #bd7a0a;
+    
+     
+    
+    
+}
+
+.enjoy-our-food-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    width: auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-text {
+    font-size: 1rem;
+    font-weight: bold;
+    
+    max-width: 25vw;
+}
+.price-text {
+    
+    color: #e58f00;
+    font-weight: bold;
+    font-size: 2rem;
+}
+    /*
+    display: flex;
+
+    justify-content: center;
+    
+}
+*/
+.menu-image {
+    display: flex;
+    justify-content: center;
+}
+
+.best-meal {
+    background-image: url(images/rectangle.png);
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.best-meal-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30vw;
+    padding-left: 5vw;
+}
+footer {
+    background-color: #35353b;
+    max-height: 100vh;
+}
+
+.bottom-logo {
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.7rem;
+    padding-bottom: 3rem;
+}
+
+.footer-social-icons {
+    position: relative;
+    justify-content: space-between;
+    width: auto;
+}
